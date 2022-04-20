@@ -76,7 +76,7 @@ form.addEventListener('submit', (e) => {
 
 /* end of class */
 
-/** link click events */
+/** Link click events */
 
 addLink.addEventListener('click', () => {
   listBooksContainer.classList.add('hidden');
