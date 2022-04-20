@@ -1,73 +1,50 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# AWesome Books Using Js Classes
 
-# Project Name
-
-> Description the project.
-
+> Simple Awsome Book Store 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
+## Screenshot
+![home page](/images/app_screenshot.png?raw=true "home screenshot")
+## Live Demo
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://yayner2002.github.io/Awesome-books-using-Js-classes/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+* To get a local copy up and running follow these simple example steps.
 
-
-To get a local copy up and running follow these simple example steps.
+1. Clone the Repo or Download the Zip file
+2. Run the live server or simply open index.html with your browser.
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+-none
 ## Authors
 
-👤 **Author1**
+👤 **yayner**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@yayner2002](https://github.com/yayner2002)
+- Twitter: [@wediagazian](https://twitter.com/wediagazian)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
 
-👤 **Author2**
+👤 **moseka**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@jmoseka](https://github.com/jmoseka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jamila-moseka/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/yayner2002/Awesome-books-using-Js-classes/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./YAY.md) licensed.
