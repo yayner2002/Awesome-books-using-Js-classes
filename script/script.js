@@ -2,6 +2,12 @@ const titleEl = document.getElementById('titleEl');
 const authorEl = document.getElementById('authorEl');
 const form = document.getElementById('my-form');
 const bookList = document.querySelector('.book-list');
+const listLink = document.querySelector('.list-link');
+const addLink = document.querySelector('.add-link');
+const contactLink = document.querySelector('.contact-link');
+const listBooksContainer = document.querySelector('.list-of-books');
+const addBookContainer = document.querySelector('.add-book-container');
+const contactConstainer = document.querySelector('.contact-info-container');
 
 /* new code with class */
 // let dataLink = Math.random();
@@ -69,3 +75,23 @@ form.addEventListener('submit', (e) => {
 });
 
 /* end of class */
+
+/** link click events */
+
+addLink.addEventListener('click', () => {
+  listBooksContainer.classList.add('hidden');
+  contactConstainer.classList.add('hidden');
+  addBookContainer.classList.remove('hidden');
+});
+
+contactLink.addEventListener('click', () => {
+  contactConstainer.classList.remove('hidden');
+  listBooksContainer.classList.add('hidden');
+  addBookContainer.classList.add('hidden');
+});
+
+listLink.addEventListener('click', () => {
+  listBooksContainer.classList.remove('hidden');
+  contactConstainer.classList.add('hidden');
+  addBookContainer.classList.add('hidden');
+});
