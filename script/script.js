@@ -14,8 +14,8 @@ class Books {
   }
 
   renderBooks() {
-    return `<span><q>${this.title}</q> By ${this.author}</span>
-          <button class="remove-btn" id='${this.id}' type="button">Remove</button>
+    return `<div class="list-block"><p>${this.title} By ${this.author} </p>
+          <button class="remove-btn" id='${this.id}' type="button">Remove</button></div>
           `;
   }
 
