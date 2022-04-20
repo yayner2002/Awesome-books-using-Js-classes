@@ -2,7 +2,6 @@
 
 > Simple Awsome Book Store 
 
-
 ## Built With
 
 - HTML
@@ -13,7 +12,6 @@
 ## Live Demo
 
 [Live Demo Link](https://yayner2002.github.io/Awesome-books-using-Js-classes/)
-
 
 ## Getting Started
 
@@ -28,13 +26,13 @@
 
 👤 **yayner**
 
-- GitHub: [@githubhandle](https://github.com/yayner2002)
-- Twitter: [@wediagazian](https://twitter.com/twitterhandle)
+- GitHub: [@yayner2002](https://github.com/yayner2002)
+- Twitter: [@wediagazian](https://twitter.com/wediagazian)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
 
 👤 **moseka**
 
-- GitHub: [@githubhandle](https://github.com/jmoseka)
+- GitHub: [@jmoseka](https://github.com/jmoseka)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jamila-moseka/)
 
 ## 🤝 Contributing
