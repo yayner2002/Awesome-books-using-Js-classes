@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awsome Books</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="list-of-books">
-            <h2 class="book-title">All Awsome Books</h2>
-            <div class="book-list">
-                
-            </div>
-        </div>
-        <hr class="hr">
+      <!--Navigation section-->
+      <nav class="nav-top">
+        <h2 class="book-title">All Awesome Books</h2>
+        <ul class="nav-links">
+          <li class="list-link">List</li>
+          <li class="add-link">Add new</li>
+          <li class="contact-link">Contact</li>
+        </ul>
+      </nav>
+      <!--close of navigation-->
+
+      <div class="time"></div>
+
+      <!--Dynamically added list of book-->
+      <div class="list-of-books">
+        <h2 class="book-title">All Awesome Books</h2>
+        <div class="book-list"></div>
+      </div>
+      <!--close dynamic added list of book-->
+
+      <!--Add book form container-->
+      <div class="add-book-container hidden">
         <form action="#" id="my-form">
-            <h2>Add new Book</h2>
-            <div class="form-elements">
-                <input type="text" class="form-control" placeholder="Book Title" id="titleEl"><br><br>
-                <input type="text" class="form-control" placeholder="Book Author" id="authorEl"><br><br>
-                <button type="submit" id="submit-btn">Add</button>
-            </div>
+          <h2>Add new Book</h2>
+          <div class="form-elements">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Book Title"
+              id="titleEl"
+            />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Book Author"
+              id="authorEl"
+            />
+            <button type="submit" id="submit-btn">Add</button>
+          </div>
         </form>
+      </div>
+
+      <!--Contact information-->
+      <div class="contact-info-container hidden">
+        <h2 class="contact-info-title">Contact information</h2>
+
+        <div class="contact-info-content">
+          <p class="contact-info-text">
+            Do have any questions or just want to say "Hello"?<br />
+            You can rech out to us!
+          </p>
+          <ul class="contact-list">
+            <li>Our e-mail: mail@gmail.com</li>
+            <li>Our phone number: 0043586534422</li>
+            <li>Our address: Streetname 22, 84503 City, Country</li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="copyright">
+        <div class="foot-left">
+            <p>Copyrght &copy; 2022 All Rights Reserved.</p>
+        </div>
+          <div class="foot-right">
+            <p>Made With 💗 by Yaynshet Medhin and Jemilla Moseka</p>
+        </div> 
+      </footer>
     </div>
     <script src="script/script.js"></script>
-</body>
+  </body>
 </html>

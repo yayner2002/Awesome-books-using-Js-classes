@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,8 +9,9 @@
 }
 
 .container {
-  width: 70%;
+  width: 95%;
   margin: auto;
+  font-family: 'Varela Round', sans-serif;
 }
 
 p {
@@ -16,15 +19,59 @@ p {
   padding: 0;
 }
 
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  padding: 10px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.nav-links li {
+  margin: 8px;
+  border-right: 2px solid black;
+}
+
+.border {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.time {
+  text-align: end;
+}
+
+/**  list of books container styling */
+
+.list-of-books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .book-title {
-  margin: 5% 0;
-  text-align: center;
+  margin-bottom: 10px;
 }
 
 .book-list {
+  width: 800px;
   display: flex;
   flex-direction: column;
   border: 4px solid black;
+  padding: 5px;
 }
 
 .list-block {
@@ -47,17 +94,6 @@ p {
   margin-bottom: 10px;
 }
 
-#my-form {
-  margin: 50px auto;
-  text-align: center;
-  width: 50%;
-  padding: 30px;
-}
-
-#my-form h2 {
-  margin-bottom: 1rem;
-}
-
 .remove-btn {
   border: 5px solid black;
   width: 100px;
@@ -68,14 +104,105 @@ p {
   padding: 3px;
 }
 
+.add-book-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#my-form {
+  width: 300px;
+  text-align: center;
+}
+
+#my-form h2 {
+  margin-bottom: 1rem;
+}
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .form-control {
   border: 3px solid #000;
-  padding: 5px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 #submit-btn {
-  margin-left: 155px;
+  width: 60px;
+  align-self: flex-end;
   border: 5px solid #000;
   padding: 5px;
   cursor: pointer;
+}
+
+.contact-info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-info-content {
+  margin-top: 35px;
+}
+
+.contact-info-text {
+  font-size: 20px;
+}
+
+.contact-list {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  padding: 10px;
+  margin-top: 500px;
+}
+
+.foot-right {
+  flex: 1;
+}
+
+.foot-left {
+  flex: 1;
+}
+
+.copyright p {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-links li:last-child {
+  border-right: none;
+}
+
+.nav-links li:first-child {
+  padding-right: 10px;
+}
+
+.nav-links li:nth-child(2) {
+  padding-right: 10px;
+}
+
+.nav-top ul li:active {
+  color: blue;
 }
